@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>445</width>
+    <height>336</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/resurce/img/—Pngtree—abstract lines background_450198.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="result_show">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>8</y>
+      <width>250</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 153, 122);
+font: 16pt &quot;IrisUPC&quot;;
+border-style: solid;
+border-width: 1px;
+ border-color: black; 
+qproperty-alignment:'AlignVCenter | AlignRight';
+                             </string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>128</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="shortcut">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_0">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>228</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="shortcut">
+     <string>0</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>158</x>
+      <y>128</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>b</string>
+    </property>
+    <property name="shortcut">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>278</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <property name="shortcut">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>78</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>d</string>
+    </property>
+    <property name="shortcut">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>158</x>
+      <y>78</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>f</string>
+    </property>
+    <property name="shortcut">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>228</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="shortcut">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>78</y>
+      <width>50</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>AC</string>
+    </property>
+    <property name="shortcut">
+     <string>Backspace</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ravno">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>278</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+    <property name="shortcut">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>178</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="shortcut">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>178</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="shortcut">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>88</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButton_16CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>16CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_10CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>10CC</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_9CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>9CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_8CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>8CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>3CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_2CC">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>2CC</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>80</y>
+      <width>88</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QRadioButton" name="radioButton_16">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>16CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_10">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>10CC</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_9">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>9CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_8">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>8CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>3CC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>2CC</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_plusminus">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>178</y>
+      <width>50</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>+/-</string>
+    </property>
+    <property name="shortcut">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>128</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>a</string>
+    </property>
+    <property name="shortcut">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>78</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>c</string>
+    </property>
+    <property name="shortcut">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>78</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>e</string>
+    </property>
+    <property name="shortcut">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>128</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="shortcut">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>158</x>
+      <y>228</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="shortcut">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>158</x>
+      <y>178</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="shortcut">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>228</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="shortcut">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>178</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+    border: 2px solid #43413f;
+        border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
+QPushButton:hover, QPushButton:focus {
+   border-color: rgba(82, 168, 236, 0.8);
+   outline: 0 none;
+}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="shortcut">
+     <string>5</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
